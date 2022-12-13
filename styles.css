@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height :841px;
+    width:1841px ;
+    
+}
+
+.sketchbook{
+    display: flex;
+    flex-wrap: wrap;
+    height: 480px;
+    width:480px;
+    align-self: center;
+    border: 2px solid black;
+    justify-self: center;
+    
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    align-self: center;
+}
+
+.generate, .reset{
+    font-family: 'Courier New', Courier, monospace;
+    height: 30px;
+    width: 50px;
+    align-self: center;
+    margin: 20px;
+}
+
+.generate{
+    width: 100px;
+}
